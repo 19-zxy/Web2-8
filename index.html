@@ -48,8 +48,8 @@
     	position: absolute;
     	width: 150px;
     	height: 100px;
-    	top: 40px;
-    	left: 30px;
+    	top: 50px;
+    	left: 50px;
     	font-size: 18px;
     }
     .lvyou{
@@ -894,7 +894,7 @@
 	window.onload = function(){
 		var setIntervalId = setInterval(function(){
 			var now = new Date();
-			time.innerHTML = "当前时间："+"</br>"+now.getFullYear()+"年"+now.getMonth()+"月"+1+now.getDay()+"日"+"</br>"+now.getHours()+":"+now.getMinutes()+":"+now.getSeconds();
+			time.innerHTML = "当前时间："+"</br>"+now.getHours()+"时"+now.getMinutes()+"分"+now.getSeconds()+"秒";
 		},1000)
 		
 	}
